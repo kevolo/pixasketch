@@ -12,14 +12,12 @@ const setupGrid = (canvasHeight, canvasWidth) => {
     }
 }
 
-document.addEventListener('click', function (e) {
-    // console.log(e + " : " + e.target + " : " + e.target.id);
-    const curPixel = document.getElementById(e.target.id);
-    curPixel.style.backgroundColor = "gray";
+document.addEventListener('mouseover', function (e) {
+    if (e.target.className === "pixel") {
+        // console.log(e + " : " + e.target + " : " + e.target.id);
+        const curPixel = document.getElementById(e.target.id);
+        curPixel.style.backgroundColor = "gray";
+    }
 });
-
-const togglePixel = e => {
-    console.log(e + " : " + e.target);
-}
 
 setupGrid(16,16);
