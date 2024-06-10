@@ -46,6 +46,9 @@ document.addEventListener('mouseover', function (e) {
                 curPixel.style.opacity = newOpacity;
             }
         }
+        else {
+            curPixel.style.opacity = 1;
+        }
     }
 });
 
