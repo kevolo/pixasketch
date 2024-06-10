@@ -16,10 +16,12 @@ body {
 }
 
 #canvas {
-    width: 962px;
-    height: 722px;
+    width: 964px;
+    height: 724px;
     margin: 20px auto;
     border: 2px solid gray;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .pixel {
