@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: red;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    color:silver;
+    font-size: 24px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#canvas {
+    width: 962px;
+    height: 722px;
+    margin: 20px auto;
+    border: 2px solid gray;
+}
+
+.pixel {
+    width: 60px;
+    height: 45px;
+    border: 1px solid gray;
+    background-color: darkgray;
+}
